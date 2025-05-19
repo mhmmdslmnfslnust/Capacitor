@@ -1,0 +1,30 @@
+export enum CategoryType {
+    // Income categories
+    SALARY = 'SALARY',
+    BUSINESS = 'BUSINESS',
+    GIFTS = 'GIFTS',
+    INVESTMENTS = 'INVESTMENTS',
+    
+    // Expense categories
+    HOUSING = 'HOUSING',
+    TRANSPORTATION = 'TRANSPORTATION',
+    FOOD = 'FOOD',
+    UTILITIES = 'UTILITIES',
+    HEALTHCARE = 'HEALTHCARE',
+    ENTERTAINMENT = 'ENTERTAINMENT',
+    SHOPPING = 'SHOPPING',
+    EDUCATION = 'EDUCATION',
+    PERSONAL_CARE = 'PERSONAL_CARE',
+    TRAVEL = 'TRAVEL',
+    DINING_OUT = 'DINING_OUT',
+    SUBSCRIPTIONS = 'SUBSCRIPTIONS',
+    
+    // Savings categories
+    EMERGENCY_FUND = 'EMERGENCY_FUND',
+    RETIREMENT = 'RETIREMENT',
+    VACATION = 'VACATION',
+    EDUCATION_SAVINGS = 'EDUCATION_SAVINGS',
+    
+    // Misc
+    OTHER = 'OTHER'
+}

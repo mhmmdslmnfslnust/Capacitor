@@ -1,0 +1,11 @@
+export enum TransactionType {
+    INCOME = 'INCOME',
+    EXPENSE = 'EXPENSE',
+    TRANSFER = 'TRANSFER',
+    INVESTMENT = 'INVESTMENT',
+    WITHDRAWAL = 'WITHDRAWAL',
+    DEPOSIT = 'DEPOSIT',
+    INTEREST = 'INTEREST',
+    DIVIDEND = 'DIVIDEND',
+    FEE = 'FEE'
+}

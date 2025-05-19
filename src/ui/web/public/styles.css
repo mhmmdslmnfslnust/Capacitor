@@ -1,0 +1,115 @@
+/* Capacitor Finance Styles */
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section > h2 {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: #495057;
+    font-weight: 600;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+/* Dashboard styles */
+#total-balance {
+    color: #198754;
+}
+
+/* Recommendation styling */
+.recommendation-card {
+    border-left: 4px solid #0d6efd;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+.recommendation-card.high-priority {
+    border-left-color: #dc3545;
+}
+
+.recommendation-card.medium-priority {
+    border-left-color: #fd7e14;
+}
+
+.recommendation-card.low-priority {
+    border-left-color: #20c997;
+}
+
+/* Goal progress bars */
+.goal-progress {
+    margin-bottom: 1rem;
+}
+
+.progress {
+    height: 0.75rem;
+}
+
+/* Account cards styling */
+.account-card {
+    transition: transform 0.2s;
+}
+
+.account-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Transaction types styling */
+.transaction-income {
+    color: #198754;
+}
+
+.transaction-expense {
+    color: #dc3545;
+}
+
+.transaction-transfer {
+    color: #6c757d;
+}
+
+.transaction-investment {
+    color: #0d6efd;
+}
+
+/* Budget section */
+.budget-category-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Custom tooltip styles */
+.chart-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
